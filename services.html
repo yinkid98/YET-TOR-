@@ -5,18 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>YET-TOR</title>
   <link rel="stylesheet" href="services.css" />
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header class="navbar">
-    <h2 class="logo">YET-TOR</h2>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+<header class="navbar">
+  <h2 class="logo">YET-TOR</h2>
+
+  <nav class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
+
+<section class="services-hero">
+  <div class="services-hero-overlay"></div>
+
+  <div class="services-hero-content">
+    <h1>Engineering Solutions That Last</h1>
+    <p>
+      At YET-TOR Engineering, we provide innovative and sustainable
+      engineering services designed to deliver quality, efficiency,
+      and long-term value.
+    </p>
+
+    <a href="contact.html" class="services-hero-btn">
+      Get a Quote
+    </a>
+  </div>
+</section>
+
 
 
   <section class="services-section">
@@ -88,10 +114,10 @@
         <div class="quick-links">
             <h3>Quick Links</h3>
             <ul class="links-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
             
@@ -106,10 +132,7 @@
             <h3>Follow Us</h3>
             <div class="social-icons">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </div>
@@ -122,5 +145,6 @@
     </div>
     </footer>
 </section>
+<script src="index.js"></script>
 </body>
 </html>
